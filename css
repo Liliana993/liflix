@@ -1,0 +1,70 @@
+body {
+  font-family: "Roboto", monospace;
+  text-align: center;
+  background-image: url("https://img.freepik.com/vector-gratis/diseno-tira-pelicula-vintage-realista-fondo-festival-cine_1017-42599.jpg");
+  background-color: rgba(0, 0, 0, 0.8);
+  filter: brightness(0.8);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 170px;
+}
+
+.alura-latam-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+.container_todosFilmes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container_filme {
+  padding: 2%;
+  display: block;
+  max-width: 30%;
+}
+
+.container_filme img {
+  max-height: 250px;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.container_filme img:hover {
+  transform: scale(1.1);
+  box-shadow: -3px 5px 5px 5px rgb(159 159 159);
+}
+
+p {
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+}
